@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/khitan-fawaz/(.*)",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
