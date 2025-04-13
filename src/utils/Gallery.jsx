@@ -26,7 +26,10 @@ const Gallery = () => {
                     }}
                     initial={image.initial}
                     whileInView={image.whileInView}
-                    transition={image.transition}
+                    transition={{
+                        ...image.transition,
+                        delay: index * 0.2 + 0.3
+                    }}
                     viewport={{ once: true }}
                     />
                 ))}
@@ -43,7 +46,10 @@ const Gallery = () => {
                     }}
                     initial={image.initial}
                     whileInView={image.whileInView}
-                    transition={image.transition}
+                    transition={{
+                        ...image.transition,
+                        delay: index * 0.2 + 0.3
+                    }}
                     viewport={{ once: true }}
                     />
                 ))}
