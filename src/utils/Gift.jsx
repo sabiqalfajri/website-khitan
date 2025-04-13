@@ -43,7 +43,7 @@ const Gift = () => {
                         viewport={{ once: true }}
                         >
                             <img className="w-[60%] h-auto" src="/gambar/bsi.svg" alt="" />
-                            <p className="text-[0.8rem] text-[#000]" id="bca">124332451256505</p>
+                            <p className="text-[0.8rem] text-[#000]" id="bca">7137849571</p>
                             <button className="bg-[#A37446] w-[70%] text-[#FFF] text-[0.7rem] py-2 flex flex-wrap justify-center items-center gap-2 hover:brightness-90 transition duration-200 cursor-pointer" type="button" onClick={() => copyTo('bca')}>
                                 {copy.bca ? <FaCheck /> : <FaCopy size={15} />}
                                 {copy.bca ? 'Success' : 'Copy'}
@@ -62,7 +62,7 @@ const Gift = () => {
                         viewport={{ once: true }}
                         >
                             <img className="w-[43%] h-auto" src="/gambar/bri.svg" alt="" />
-                            <p className="text-[0.8rem] text-[#000]" id="bri">007732451256505</p>
+                            <p className="text-[0.8rem] text-[#000]" id="bri">007701034296505</p>
                             <button className="bg-[#A37446] w-[70%] text-[#FFF] text-[0.7rem] py-2 flex flex-wrap justify-center items-center gap-2 hover:brightness-90 transition duration-200 cursor-pointer" type="button" onClick={() => copyTo('bri')}>
                                 {copy.bri ? <FaCheck /> : <FaCopy size={15} />}
                                 {copy.bri ? 'Success' : 'Copy'}

@@ -24,7 +24,7 @@ const Location = ({ show , handleShow }) => {
                     <div className="flex flex-col p-2 gap-2 w-[50%] bg-[#A37446] text-[#FFF]">
                         <div className="flex flex-wrap gap-2">
                             <SlCalender size={14} />
-                            <p className="m-0 text-[0.7rem]">1 Juni 2025</p>
+                            <p className="m-0 text-[0.7rem]">31 Mei 2025</p>
                         </div>
                         <div className="flex flex-wrap gap-2">
                             <FiClock size={15} />
