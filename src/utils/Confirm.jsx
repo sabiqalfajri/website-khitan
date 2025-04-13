@@ -20,7 +20,7 @@ const Confirm = () => {
         message += `masih belum bisa memastikan kehadiran saya di acara khitan ini.\n`;
         message += `Saya ingin mengucapkan ${harapan}. Terima kasih atas undanganya`
         } else {
-            message += `Ingin konfirmasi kehadiran bahwa saya akan datang ke acara pernikahan bersama ${jumlah} orang. Terimakasih`
+            message += `Ingin konfirmasi kehadiran bahwa saya akan datang ke acara khitan bersama ${jumlah} orang. Terimakasih`
         }
         const encode = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/628122727053?text=${encode}`;
