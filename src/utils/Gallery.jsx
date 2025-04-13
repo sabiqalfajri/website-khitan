@@ -24,13 +24,13 @@ const Gallery = () => {
                         setPhotoIndex(index);
                         setOpen(true);
                     }}
-                    initial={image.initial}
-                    whileInView={image.whileInView}
-                    transition={{
-                        ...image.transition,
-                        delay: index * 0.2 + 0.3
-                    }}
-                    viewport={{ once: true }}
+                    // initial={image.initial}
+                    // whileInView={image.whileInView}
+                    // transition={{
+                    //     ...image.transition,
+                    //     delay: index * 0.2 + 0.3
+                    // }}
+                    // viewport={{ once: true }}
                     />
                 ))}
             </div>
@@ -44,13 +44,13 @@ const Gallery = () => {
                         setPhotoIndex(index + 3); 
                         setOpen(true);
                     }}
-                    initial={image.initial}
-                    whileInView={image.whileInView}
-                    transition={{
-                        ...image.transition,
-                        delay: index * 0.2 + 0.3
-                    }}
-                    viewport={{ once: true }}
+                    // initial={image.initial}
+                    // whileInView={image.whileInView}
+                    // transition={{
+                    //     ...image.transition,
+                    //     delay: index * 0.2 + 0.3
+                    // }}
+                    // viewport={{ once: true }}
                     />
                 ))}
             </div>
