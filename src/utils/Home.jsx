@@ -240,7 +240,7 @@ const Home = () => {
                                 <h2 className="text-[1rem]">Salnaf Fawaz Alghazi</h2>
                                 <div className="w-[20%] h-[0.1rem] bg-[#FFF]"></div>
                             </div>
-                            <p className="w-[80%] text-[0.7rem] text-[#000]">Anak ketujuh dari Bapak Aminudin & Ibu Tati Suswanti</p>
+                            <p className="w-[80%] text-[0.7rem] text-[#000]">Anak ketujuh(bungsu) dari Bapak Aminudin & Ibu Tati Suswanti</p>
                         </div>
                     </div> 
                     <Location show={show} handleShow={handleShow} />
