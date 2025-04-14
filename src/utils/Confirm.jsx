@@ -63,7 +63,7 @@ const Confirm = () => {
                     <form action="" onSubmit={handleLink}>
                         <div className="flex gap-2 mb-3">
                             <div className="w-1/2">
-                               <label className="block text-white mb-2" for="name">Nama</label>
+                               <label className="block text-white mb-2 text-[0.8rem]" for="name">Nama</label>
                                 <input className="w-full p-2 text-[#000] bg-[#F1E8D7] border border-gray-300 text-[0.7rem] h-[2rem] focus:outline-none focus:ring-2 focus:ring-[#A37446] transition duration-200" type="text" id="name" 
                                 value={nama} 
                                 onChange={(e) => setNama(e.target.value)} 
@@ -71,7 +71,7 @@ const Confirm = () => {
                                 placeholder="Masukkan nama" /> 
                             </div>
                             <div className="w-1/2">
-                               <label className="block text-white mb-2" for="name">Berapa orang?</label>
+                               <label className="block text-white mb-2 text-[0.8rem]" for="name">Berapa orang?</label>
                                 <select className="w-full p-2 bg-[#F1E8D7] border border-gray-300 text-[0.7rem] h-[2rem] focus:outline-none focus:ring-2 focus:ring-[#A37446] transition duration-200" id="guests"
                                 value={jumlah}
                                 required
@@ -85,7 +85,7 @@ const Confirm = () => {
                             </div>
                         </div>
                         <div className="mb-4">
-                            <label className="block text-white mb-2" for="name">Apakah anda akan hadir?</label>
+                            <label className="block text-white mb-2 text-[0.8rem]" for="name">Apakah anda akan hadir?</label>
                             <select className="w-full p-2 border border-gray-300 bg-[#F1E8D7] text-[0.7rem] h-[2rem] focus:outline-none focus:ring-2 focus:ring-[#A37446] transition duration-200" id="attendance"
                             value={confirmation}
                             onChange={(e) => setConfirmation(e.target.value)}
@@ -97,7 +97,7 @@ const Confirm = () => {
                             </select>
                         </div>
                         <div className="mb-4">
-                            <label className="block text-white mb-2" for="wishes">Harapan Kamu</label>
+                            <label className="block text-white mb-2 text-[0.8rem]" for="wishes">Harapan Kamu</label>
                             <textarea className="w-full p-2 border border-gray-300 bg-[#F1E8D7] text-[0.7rem] focus:outline-none focus:ring-2 focus:ring-[#A37446] transition duration-200" id="wishes" rows="4" placeholder="Harapan untuk anak kami"
                             value={harapan}
                             onChange={(e) => setHarapan(e.target.value)}
