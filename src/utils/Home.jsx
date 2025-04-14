@@ -233,11 +233,11 @@ const Home = () => {
                         />
                         <motion.img src="/gambar/awan.webp" className="max-w-[500px] absolute top-[-7.5rem]" alt="" />
                         <div className="w-100 mt-4 flex flex-col justify-center items-center text-center">
-                            <h5 className="text-[0.8rem]">Assalamualaikum wr.wb</h5>
+                            <h5 className="text-[0.7rem]">ASSALAMUALAIKUM WR.WB</h5>
                             <p className="w-[80%] text-[0.7rem] text-[#000]">Dengan memohon rahmat dan ridho Allah SWT, kami berniat mengadakan acara khitanan untuk putra kami. Dan kami mengundang Anda untuk hadir dalam acara tasyakuran khitanan ini.</p>
                             <div className="flex gap-[0.5rem] w-full flex-wrap justify-center items-center mt-3"> 
                                 <div className="w-[20%] h-[0.1rem] bg-[#FFF]"></div>
-                                <h2 className="text-[1rem]">Salnaf Fawaz Alghazi</h2>
+                                <h2 className="text-[0.8rem]">Salnaf Fawaz Alghazi</h2>
                                 <div className="w-[20%] h-[0.1rem] bg-[#FFF]"></div>
                             </div>
                             <p className="w-[80%] text-[0.7rem] text-[#000]">Anak ketujuh(bungsu) dari Bapak Aminudin & Ibu Tati Suswanti</p>
